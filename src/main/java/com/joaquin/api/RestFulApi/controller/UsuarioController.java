@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "https://portfolio-firebase-699b9.web.app")
 public class UsuarioController {
 
     @Autowired
